@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'crispy_forms',
+
+    # local apps
+    'pages.apps.PagesConfig',
 ]
 
 MIDDLEWARE = [
@@ -61,7 +65,7 @@ ROOT_URLCONF = 'meuapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -110,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
@@ -140,3 +144,14 @@ AUTHENTICATION_BACKENDS = {
 }
 
 SITE_ID = 1
+LOGIN_REDIRECT_URL = "/"
+ACCOUNT_SESSION_REMEMBER = False
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_UNIQUE_EMAIL = True
+
+# django-crispy-forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
