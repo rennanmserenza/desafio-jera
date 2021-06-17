@@ -14,67 +14,67 @@
 
 Nesse desafio foram cobrados e aplicados os seguintes conceitos:
 
-    - Criar conta
+- Criar conta
 
-        Como um usuário gostaria de criar uma conta na plataforma, sendo essa conta privada, onde outras contas não possam ver as minhas listas.
+    Como um usuário gostaria de criar uma conta na plataforma, sendo essa conta privada, onde outras contas não possam ver as minhas listas.
 
-            -- A conta deverá ter um perfil principal contendo: email, senha, nome e data de nascimento.
-            -- A aplicação não deve ter mais de uma conta  associada ao mesmo email.
+        -- A conta deverá ter um perfil principal contendo: email, senha, nome e data de nascimento.
+        -- A aplicação não deve ter mais de uma conta  associada ao mesmo email.
 
 
-    - Login da conta
+- Login da conta
 
-        Como usuário gostaria de logar na plataforma e continuar a visualizar as minhas listas.
+    Como usuário gostaria de logar na plataforma e continuar a visualizar as minhas listas.
 
-            -- Login será feito por: email e senha
-            -- Todas as áreas privadas só podem ser acessadas caso o usuário esteja autenticado.(O acesso direto por URL não deve ser permitido, caso o usuário não esteja logado.)
+        -- Login será feito por: email e senha
+        -- Todas as áreas privadas só podem ser acessadas caso o usuário esteja autenticado.(O acesso direto por URL não deve ser permitido, caso o usuário não esteja logado.)
 
-    - Criar Perfil
+- Criar Perfil
 
-        Como um usuário gostaria de criar diferentes perfis de usuários, para que eu possa associar os filmes a cada perfil, deixando a minha lista de filmes organizada.
-            
-            -- O perfil deverá ter somente um nome.
-            -- O usuário pode ter no máximo quatro perfis.
+    Como um usuário gostaria de criar diferentes perfis de usuários, para que eu possa associar os filmes a cada perfil, deixando a minha lista de filmes organizada.
+        
+        -- O perfil deverá ter somente um nome.
+        -- O usuário pode ter no máximo quatro perfis.
 
-    - Listar perfis
+- Listar perfis
 
-        Como usuário gostaria de ver todos os perfis associados a minha conta para selecionar o perfil desejado e ter o conteúdo filtrado.
-            
-            -- Lista de todos os perfis associados ao usuário.
-            -- Os conteúdos internos da aplicação serão definidos a partir de um perfil selecionado.
+    Como usuário gostaria de ver todos os perfis associados a minha conta para selecionar o perfil desejado e ter o conteúdo filtrado.
+        
+        -- Lista de todos os perfis associados ao usuário.
+        -- Os conteúdos internos da aplicação serão definidos a partir de um perfil selecionado.
 
-    - Lista de filmes sugeridos
+- Lista de filmes sugeridos
 
-        Como usuário gostaria de ter uma lista de filmes personalizada para o meu perfil, para que eu gaste menos tempo selecionando o que eu gostaria de assistir.
+    Como usuário gostaria de ter uma lista de filmes personalizada para o meu perfil, para que eu gaste menos tempo selecionando o que eu gostaria de assistir.
 
-            -- A lista personalizada depende dos filmes que o usuário adiciona na lista de filmes e filmes já assistidos
-            -- O predominante da lista é as categorias dos filmes que estão na lista ou já foram assistidos (Não precisa ter inteligência, é uma busca por filmes das categorias que o perfil, mais assiste.)
+        -- A lista personalizada depende dos filmes que o usuário adiciona na lista de filmes e filmes já assistidos
+        -- O predominante da lista é as categorias dos filmes que estão na lista ou já foram assistidos (Não precisa ter inteligência, é uma busca por filmes das categorias que o perfil, mais assiste.)
 
-    - Busca de filmes
+- Busca de filmes
 
-        Como usuário gostaria de ter a opção de buscar um filme a partir de um texto qualquer, para que eu possa localizar filmes que não estão listados em meus filmes sugeridos.
+    Como usuário gostaria de ter a opção de buscar um filme a partir de um texto qualquer, para que eu possa localizar filmes que não estão listados em meus filmes sugeridos.
 
-            -- Busca de filmes por termo.
+        -- Busca de filmes por termo.
 
-    - Marcar filme como para assistir
+- Marcar filme como para assistir
 
-        Como usuário gostaria de marcar um filme para assistir, para que eu não esqueça dos filmes que eu me interessei.
+    Como usuário gostaria de marcar um filme para assistir, para que eu não esqueça dos filmes que eu me interessei.
 
-            -- Filmes marcado como watchlist deve ser salvo no perfil do usuário.
-            -- Os filmes no watchlist devem ser levados em consideração na sugestão de filmes.
+        -- Filmes marcado como watchlist deve ser salvo no perfil do usuário.
+        -- Os filmes no watchlist devem ser levados em consideração na sugestão de filmes.
 
-    - Visualizar lista para assistir
+- Visualizar lista para assistir
 
-        Como usuário gostaria de visualizar a lista para assistir que criei de uma forma rápida e sucinta.
+    Como usuário gostaria de visualizar a lista para assistir que criei de uma forma rápida e sucinta.
 
-            -- Lista de filmes que foram marcados em determinado perfil
+        -- Lista de filmes que foram marcados em determinado perfil
 
 
 ## 💾 Framework e linguagem utilizados
 
-    Para criação deste projeto foi escolhida a linguagem python(na versão 3.9.1), por ser a que mais possuo familiaridade, apesar de também me interessar por javascript.
+Para criação deste projeto foi escolhida a linguagem python(na versão 3.9.1), por ser a que mais possuo familiaridade, apesar de também me interessar por javascript.
     
-    Com a linguagem de programação enfim definida optei pelo framework Django por ter uma ótima documentação e por agregar muito ao projeto sem muitas configurações iniciais, como por exemplo já vir com uma configuração de banco de dados pronta para desenvolvimento, podendo ser facilmente trocado para momento de produção caso este seja necessário.
+Com a linguagem de programação enfim definida optei pelo framework Django por ter uma ótima documentação e por agregar muito ao projeto sem muitas configurações iniciais, como por exemplo já vir com uma configuração de banco de dados pronta para desenvolvimento, podendo ser facilmente trocado para momento de produção caso este seja necessário.
 
 
 ## 💾 Como utilizar 
@@ -84,19 +84,19 @@ Primeiramente clone o projeto
     git clone https://github.com/rennanmserenza/desafio-jera.git
 
 Depois ative a virtualenv, tenha certeza de ter o python e o django instalados
-    Para instalação do django se for preciso
+Para instalação do django se for preciso
 
     pip3 install django
 
-    Dirija-se a pasta de Scripts
+Dirija-se a pasta de Scripts
     
     cd \venv\Scripts
 
-    Caso esteja no cmd o comando "activate" já bastará para coloca-la em funcionamento mas caso não seja o suficiente use
+Caso esteja no cmd o comando "activate" já bastará para coloca-la em funcionamento mas caso não seja o suficiente use
 
     .\activate
 
-    após a ativação você deverá ver algo parecido com isto no seu shell 
+após a ativação você deverá ver algo parecido com isto no seu shell 
 
     (venv) PS C:\desafio-jera>
 
