@@ -29,27 +29,6 @@ Nesse desafio foram cobrados e aplicados os seguintes conceitos:
         -- Login será feito por: email e senha
         -- Todas as áreas privadas só podem ser acessadas caso o usuário esteja autenticado.(O acesso direto por URL não deve ser permitido, caso o usuário não esteja logado.)
 
-- Criar Perfil
-
-    Como um usuário gostaria de criar diferentes perfis de usuários, para que eu possa associar os filmes a cada perfil, deixando a minha lista de filmes organizada.
-        
-        -- O perfil deverá ter somente um nome.
-        -- O usuário pode ter no máximo quatro perfis.
-
-- Listar perfis
-
-    Como usuário gostaria de ver todos os perfis associados a minha conta para selecionar o perfil desejado e ter o conteúdo filtrado.
-        
-        -- Lista de todos os perfis associados ao usuário.
-        -- Os conteúdos internos da aplicação serão definidos a partir de um perfil selecionado.
-
-- Lista de filmes sugeridos
-
-    Como usuário gostaria de ter uma lista de filmes personalizada para o meu perfil, para que eu gaste menos tempo selecionando o que eu gostaria de assistir.
-
-        -- A lista personalizada depende dos filmes que o usuário adiciona na lista de filmes e filmes já assistidos
-        -- O predominante da lista é as categorias dos filmes que estão na lista ou já foram assistidos (Não precisa ter inteligência, é uma busca por filmes das categorias que o perfil, mais assiste.)
-
 - Busca de filmes
 
     Como usuário gostaria de ter a opção de buscar um filme a partir de um texto qualquer, para que eu possa localizar filmes que não estão listados em meus filmes sugeridos.
@@ -113,3 +92,25 @@ Para rodar nossa aplicação utilizaremos o seguinte comando
 Caso queira criar um super user para acessar a parte de admin do django é só utilizar o comando
 
     py manage.py createsuperuser
+
+
+    - Criar Perfil
+
+    Como um usuário gostaria de criar diferentes perfis de usuários, para que eu possa associar os filmes a cada perfil, deixando a minha lista de filmes organizada.
+        
+        -- O perfil deverá ter somente um nome.
+        -- O usuário pode ter no máximo quatro perfis.
+
+- Listar perfis
+
+    Como usuário gostaria de ver todos os perfis associados a minha conta para selecionar o perfil desejado e ter o conteúdo filtrado.
+        
+        -- Lista de todos os perfis associados ao usuário.
+        -- Os conteúdos internos da aplicação serão definidos a partir de um perfil selecionado.
+
+- Lista de filmes sugeridos
+
+    Como usuário gostaria de ter uma lista de filmes personalizada para o meu perfil, para que eu gaste menos tempo selecionando o que eu gostaria de assistir.
+
+        -- A lista personalizada depende dos filmes que o usuário adiciona na lista de filmes e filmes já assistidos
+        -- O predominante da lista é as categorias dos filmes que estão na lista ou já foram assistidos (Não precisa ter inteligência, é uma busca por filmes das categorias que o perfil, mais assiste.)
